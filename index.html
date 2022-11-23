@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Activity Session 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="header">
+        <a href="#landing" class="navlinkleft">MERN</a>
+        <div>
+            <a href="#landing"  class="navlinkright">Landing</a>
+            <a href="#register" class="navlinkright">Register</a>
+        </div>
+    </nav>
+    
+    <h1>Hello World!</h1>
+
+    <!-- Landing Page -->
+    <section id="landing">          
+    <h2>Welcome to MERN Stack Training!</h2>
+    <h4 id="quote">“There is an easy way and a hard way. The hard part is finding the easy way.”</h4>
+    
+    <img src="https://i.pinimg.com/736x/ee/19/6a/ee196a048191fcba45a2a1dab90e23e8.jpg">
+    
+    <ol id="offerschedule">
+        <li class="offersat">SATURDAY CLASS (8-10pm)</li>
+        <li class="offersun">SUNDAY CLASS (6-10pm)</li>
+    </ol>
+    </section>
+    <br>
+
+    <!-- Register Section -->
+    <section id="register">
+        <h2>Register</h2>
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" required autocomplete>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" required autocomplete>
+          
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required autocomplete>
+            
+            <button type="submit">Apply Now</button>
+        </form>
+        <br>
+        <br>
+        <a href="#header">Back to Top</a>
+    </section>
+</body>
+</html>

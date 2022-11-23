@@ -1,0 +1,90 @@
+    /* -- HEADER STYLE -- */ 
+#header {   
+    background-color: whitesmoke;
+    display: inline;
+    font-family:'Courier New', Courier;
+    font-weight: normal;
+}
+
+div {
+    margin-left: 75%;
+    display: inline;
+    font-family:'Courier New', Courier;
+    font-weight: normal;
+}
+
+    /* -- SKY BLUE -- */ 
+body {
+    background-color: #88CEE8;
+}
+
+h1, h2 {
+    color: black;
+    text-align: center;
+    font-family:'Courier New', Courier
+}
+
+    /* -- INSPIRING QUOTE -- */ 
+h4 {
+    letter-spacing: 4px;
+    text-align: center;
+    font-family:'Courier New', Courier
+}
+
+    /* -- IMAGE CENTER -- */ 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+    border-radius:100px;
+}
+
+    /* -- CLASS SCHEDULE -- */ 
+li {
+    list-style: none;
+    text-align: center;
+    font-family:'Courier New', Courier;
+    font-size: 16px;
+}
+
+    /* -- REGISTRATION SECTION -- */ 
+#register {
+   text-align: center;
+   font-family:'Courier New', Courier
+}
+
+form {
+    background-color: whitesmoke;
+    display: inline-block;
+    border: 2px solid black;
+    width: 25%;
+    padding: 20px;
+}
+
+label, button {
+    display: block;
+    margin: 10px;
+    font-family:'Courier New', Courier;
+    font-size: 15px;
+}
+
+button {
+    display: inline-block;
+    /* -- Button Color is Rubine Red -- */ 
+    background-color: #cf0053; 
+    color: white;
+    padding: 10px 25px;
+    margin: 2px;
+    border-radius: 80px;
+    margin: auto;
+    margin-top: 30px;
+    font-family:'Courier New', Courier;
+    font-size: 18px;
+}
+
+input {
+    width: 95%;
+    padding: 3px;
+}
